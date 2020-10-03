@@ -2,3 +2,89 @@
 /* *** Estilos SOLO para index.html *** */
 /* *********************************** */
 
+header{
+   grid-column: 1/span-1;
+    background-color:#000000;
+    color:#FFFFFF; 
+}
+
+a{
+    color:#FFFFFF;
+    text-decoration:none;
+ 
+}
+
+h1{
+    grid-column:2/4;
+    display:flex;
+    align-items: center;
+   
+}
+
+nav{
+    grid-column: 12/15;
+    display:flex;
+    justify-content: space-between; 
+    align-items: center;  
+   
+}
+
+main{
+    grid-column: 1/span-1;
+}
+
+.banner{
+    grid-column:1/span-1;
+    height: 400px;
+    background-image: url(../img/desktop/banner_Principal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.contenido{
+    grid-column: 1/span-1;
+    background-color: red;
+}
+
+.contenido_texto{
+    grid-column: 1/span-1;
+    display:flex;
+    justify-content: center;
+    background-color: beige;
+    
+}
+
+.contenido_imagenes{
+    grid-column:1/span-1;
+    background-color: aqua;
+}
+
+.container_main_imagenes_izq{
+    grid-column:2/4;
+}
+
+.container_main_imagenes_centro{
+    grid-column:7/10;
+}
+
+.container_main_imagenes_der{
+    grid-column:13/15;
+}
+
+footer{
+    grid-column: 1/span-1;
+    display:flex;
+    justify-content: center;
+    background-color:#000000;
+    color:#FFFFFF; 
+}
+
+
+
+
+
+
+
+
+
